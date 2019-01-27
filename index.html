@@ -1,80 +1,163 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kevin's Personal Site</title>
+    <title>Kevin Fontanilla</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/kevin.PNG" alt="kevin profile picture"></td>
-            <td><h1>Kevin Fontanilla</h1>
-                <p><em>Founder and CEO of <strong>Tenysis</strong></em></p>
-                <p>I am an Web Developer. I love coffee and internet.</p></td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2017-2018</td>
-                <td>In1go Technologies Inc.</td>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>YNS Philippines Inc.</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>University of Perpetual Help Las Piñas - A. Y 2013 - 2017</li>
-    </ul>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>JAVASCRIPT</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>PHP</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>AJAX</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Get in touch!</h3>
-    <table cellspacing="10">
-        <tr>
-            <td><strong>Email</strong></td>
-            <td>kevin.fontanilla50@gmail.com</td>
-        </tr>
-        <tr>
-            <td><strong>Contact Number</strong></td>
-            <td>09205690428</td>
-        </tr>
-    </table>
-</body>
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">KMMF</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/kevin-cover-photo2.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2 parallax parallax">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Kevin Fontanilla</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Programmer / Software Developer.</p>
+      </div>
+    </section>
+    <!-- Statistics-->
+    <section id="statistics" data-dir="up" class="statistics-section parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item social-reach">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><br>SOCIAL REACH</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-facebook"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">1759</span></h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-instagram"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">146</span></h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-twitter"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">324</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="dark-mask"></div> -->
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <!-- <div class="container"> -->
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-6 no-padding-right">
+            <div class="about-me-picture">
+              <div data-animate="fadeInUp" class="no-padding-left"><img src="img/kevin-about-me.jpg" alt="kevin about me picture" class="about-me-img"></div>
+            </div>
+          </div>
+          <div class="col-lg-6 no-padding-left">
+            <div class="about-me-text">
+              <p>I must say that i'm not just responsible for development because i'm an programmer but because i'm really passionate about it.</p>
+              <p>Dedicated, passionate, and accomplished Full Stack Developer with 2 years of progressive experience working as a software developer for In1go Technologies Inc. and YNS Philippines Inc. and developing and growing my educational social network that helps others learn programming and web design</strong>.</p>
+              <p>I’ve acquired a wide depth of knowledge and expertise in using my technical skills in programming and software development to developing solutions, to help organizations increase productivity, and accelerate business performance. I have a plan to share my knowledge to other people who has a dream.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6 no-padding-right">
+            <div class="company-text">
+              <p>Tenysis is an Information Technology Solutions company who specialize on the latest and modern technologies and techniques on solving and providing your IT related needs. Tenysis IT Solutions Creative & Intelligent computing without compromising the speed.
+              </p>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6 no-padding-left">
+            <div class="about-me-picture">
+              <div data-animate="fadeInUp" class="no-padding-left"><img src="img/company-logo.png" alt="kevin about me picture" class="company-img"></div>
+            </div>
+          </div>
+        </div>
+    </section>    
+    
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-left">
+          <h2 class="title">Get in touch!</h2>
+        </header>
+        <p>For any business inquiries regarding Kevin please email kevin.fontanilla50@gmail.com or contact 09205690428</p>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="https://www.facebook.com/QebKev" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="https://www.instagram.com/kev.nivek/" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="https://plus.google.com/u/0/116787413824889467802" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© Website by Kevin Fontanilla. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="js/front.js"></script>
+    <script>
+      $(function() {
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        }
+      })
+    </script>
+  </body>
 </html>
