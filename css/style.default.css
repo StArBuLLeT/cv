@@ -2367,8 +2367,10 @@ code {
 .about-me-text p {
   color: #fefefe;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  padding: 10vw;
+  font-size: 2vh;
+  margin-top: 11%;
 }
 
 .company-text {
@@ -2386,8 +2388,10 @@ code {
 .company-text p {
   color: #fefefe;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  padding: 10vw;
+  font-size: 2vh;
+  margin-top: 25%;
 }
 
 .about-me-picture {
@@ -2442,6 +2446,5 @@ code {
 }
 
 .mb0 {
-  padding: 50px;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
