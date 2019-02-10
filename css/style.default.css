@@ -1470,6 +1470,7 @@ h6,
 h1,
 .h1 {
   font-size: 3.6rem;
+  font-size: 4vw;
 }
 
 h2,
@@ -1478,8 +1479,8 @@ h2,
 }
 
 h3,
-.h3 {
-  font-size: 1.75rem;
+.h3 { 
+  font-size: 1.5vw;
 }
 
 h4,
