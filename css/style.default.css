@@ -1469,7 +1469,7 @@ h6,
 
 h1,
 .h1 {
-  font-size: 4vw;
+  font-size: 6vw;
 }
 
 h2,
@@ -2370,7 +2370,7 @@ code {
   display: inline-block;
   padding: 10vw;
   font-size: 2vh;
-  /* margin-top: 11%; */
+  margin-top: 11%;
 }
 
 .company-text {
@@ -2459,9 +2459,20 @@ code {
   .company-text-group {
       top: 336px;
   }
+
+  .about-me-text p {
+    margin-top: 2%;
+  }  
 }
 
-@media only screen 
+  @media (max-width: 736px) {
+    .company-text p {
+      margin-top: 38%;
+    }  
+  }
+  
+
+  @media only screen 
   and (device-width : 375px) 
   and (device-height : 812px) 
   and (-webkit-device-pixel-ratio : 3) { 
@@ -2476,6 +2487,14 @@ code {
       .company-text-group {
           top: 366px;
       }
+
+      .about-me-text p {
+        margin-top: -4%;
+      }  
+
+      .company-text p {
+        margin-top: 21%;
+      }  
   }
 
   @media only screen 
@@ -2484,4 +2503,16 @@ code {
       .company-text-group {
           top: 256px;
       }
+
+      .about-me-text p {
+        margin-top: -4%;
+      }  
   }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  .company-text p {
+    margin-top: 32%;
+  }
+}
